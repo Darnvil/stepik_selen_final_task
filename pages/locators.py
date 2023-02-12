@@ -8,3 +8,9 @@ class MainPageLocators():
 class LoginPageLocators():
     LOGIN_FORM = (By.CSS_SELECTOR, '#login_form')
     REGISTER_FORM = (By.CSS_SELECTOR, '#register_form')
+
+
+class ItemPageLocators():
+    ADD_TO_CART = (By.CSS_SELECTOR, '.btn-add-to-basket')
+    ADDED_TO_CART_MESSAGE = (By.CSS_SELECTOR, '.alert-success')
+    CART_SUM = (By.CSS_SELECTOR, '.alert-info')
